@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Restaurante Nova Polska · Culinária típica polonesa em Campo Magro, PR</title>
+  <meta name="description" content="Restaurante Nova Polska, em Campo Magro, Paraná: culinária típica polonesa, almoço e café rural numa chácara de família, com lago, passeio de trator e fazendinha. Reservas pelo WhatsApp.">
+  <meta name="theme-color" content="#cfe8f6">
+  <meta property="og:title" content="Restaurante Nova Polska · Campo Magro, PR">
+  <meta property="og:description" content="Culinária típica polonesa, café rural, lago e natureza numa chácara de família.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="/nova-polska/img/casa-1940.webp">
+  <link rel="icon" href="/nova-polska/favicon.svg" type="image/svg+xml">
+  <!-- primeiro quadro: só o céu, nunca o HTML sem estilo; o corpo aparece quando o CSS, as fontes e as imagens da
+       hero chegaram (main.js põe .is-pronto) e a abertura monta a paisagem -->
+  <style>html{scrollbar-width:none;background:#cfe8f6}html::-webkit-scrollbar{display:none}html:not(.is-pronto) body{opacity:0}</style>
+  <link rel="preload" as="image" href="/nova-polska/img/mata.webp" type="image/webp">
+  <link rel="preload" as="image" href="/nova-polska/img/chacara.webp" type="image/webp">
+  <link rel="preload" as="image" href="/nova-polska/img/campo.webp" type="image/webp">
+  <link rel="preload" as="image" href="/nova-polska/img/frente.webp" type="image/webp">
+  <link rel="preload" as="image" href="/nova-polska/img/casa-1940.webp" type="image/webp">
+  <link rel="preload" as="image" href="/nova-polska/img/buffet-frango-linguica.webp" type="image/webp">
+  <script type="module" crossorigin src="/nova-polska/assets/index-Ds05b_MV.js"></script>
+  <link rel="stylesheet" crossorigin href="/nova-polska/assets/index-WEsFBjWe.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <!-- a marca: a casa de madeira de telhado de barro, parede azul-clara e a varanda rosa -->
+    <symbol id="marca" viewBox="0 0 36 30">
+      <path fill="#a4dee2" d="M6.5 14.2 18 6.2l11.5 8V29h-23z"/>
+      <path fill="#e2568a" d="M6.5 19.4h23v3.4h-23z"/>
+      <path fill="#2c6e3f" d="M15.6 22.8h4.8V29h-4.8z"/>
+      <path fill="#2e2730" d="M9.6 15.6h3.6v3h-3.6zM22.8 15.6h3.6v3h-3.6z"/>
+      <path fill="#b8563a" d="M1.4 14.6 18 2.6l16.6 12-2.2 1.9L18 6.1 3.6 16.5z"/>
+      <path fill="#2c6e3f" d="M3 29h30v1H3z"/>
+    </symbol>
+    <symbol id="seta" viewBox="0 0 20 20">
+      <path d="M3.5 10h12.5M11 4.8 16.2 10 11 15.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="zap" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2Zm0 17.7a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9Zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3Z"/>
+    </symbol>
+  </svg>
+
+  <header class="nav" data-nav>
+    <a class="nav__logo" href="#topo" data-go="topo" aria-label="Nova Polska, início">
+      <svg class="nav__mark" width="36" height="30" aria-hidden="true"><use href="#marca"/></svg>
+      <span class="nav__word">Nova Polska</span>
+    </a>
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#como-funciona" data-go="como">A visita</a>
+      <a href="#gastronomia" data-go="esp">Gastronomia</a>
+      <a href="#lazer" data-go="psi">Lazer</a>
+      <a href="#historia" data-go="casa">A casa</a>
+      <a href="#valores" data-go="val">Valores</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn--light btn--sm nav__entrar" href="#valores" data-go="val">Valores</a>
+      <a class="btn btn--dark btn--sm" href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-zap>Reservar <svg class="btn__arrow" width="18" height="18" aria-hidden="true"><use href="#seta"/></svg></a>
+      <button class="nav__menu" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-open><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="menu vidro" data-menu hidden>
+    <nav aria-label="Menu">
+      <a href="#como-funciona" data-go="como">A visita</a>
+      <a href="#gastronomia" data-go="esp">Gastronomia</a>
+      <a href="#lazer" data-go="psi">Lazer</a>
+      <a href="#historia" data-go="casa">A casa</a>
+      <a href="#valores" data-go="val">Valores</a>
+      <a href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-zap>Reservar pelo WhatsApp</a>
+    </nav>
+    <button class="menu__close" type="button" aria-label="Fechar menu" data-menu-close><span></span><span></span></button>
+  </div>
+
+  <main>
+  <div class="palco" data-palco>
+  <div class="world" data-world>
+    <div class="sky" aria-hidden="true"></div>
+    <div class="layer layer--nuvens" aria-hidden="true"><img src="/nova-polska/img/nuvens.webp" alt="" width="1600" height="1067"></div>
+    <div class="layer layer--montanhas" data-layer="montanhas" aria-hidden="true"><img src="/nova-polska/img/mata.webp" alt="" width="2400" height="1600"></div>
+    <div class="layer layer--c1" data-layer="c1" aria-hidden="true"><img src="/nova-polska/img/chacara.webp" alt="" width="2400" height="1600"></div>
+    <div class="layer layer--c2" data-layer="c2" aria-hidden="true"><img src="/nova-polska/img/campo.webp" alt="" width="2400" height="1600"></div>
+    <div class="layer layer--c3" data-layer="c3" aria-hidden="true"><img src="/nova-polska/img/frente.webp" alt="" width="2400" height="1600"></div>
+
+    <!-- 1 · hero -->
+    <section class="hero" id="topo" data-scene="hero" aria-labelledby="hero-titulo">
+      <div class="hero__copy" data-hero-copy>
+        <h1 class="hero__titulo" id="hero-titulo" data-split>A Polônia à mesa,<br>no campo do Paraná.</h1>
+        <p class="hero__lead">Culinária típica polonesa, almoço e café rural numa chácara de família em Campo Magro, com lago, passeios e natureza.</p>
+        <div class="hero__cta">
+          <a class="btn btn--dark btn--lg" href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-zap>Reservar pelo WhatsApp <svg class="btn__arrow" width="18" height="18" aria-hidden="true"><use href="#seta"/></svg></a>
+          <a class="btn btn--light btn--lg" href="#gastronomia" data-go="esp">Ver a gastronomia <img class="btn__avatar" src="/nova-polska/img/mesa-avatar.webp" alt="" width="96" height="96"></a>
+        </div>
+      </div>
+      <p class="hero__esp" data-hero-esp>Buffet típico, café rural, lago, passeio de trator e fazendinha.</p>
+    </section>
+
+    <!-- a abertura: as duas fotos da hero sobem e viram o card da visita (Gastronomia → Lazer → Reservas) -->
+    <div class="call" data-call>
+      <div class="call__chip vidro" data-call-chip>Campo Magro · Paraná</div>
+      <div class="call__frame" data-call-frame>
+        <img class="call__fill" src="/nova-polska/img/casa-fundo.webp" alt="" width="480" height="640">
+        <div class="call__room" data-call-room>
+          <img class="call__room-img" src="/nova-polska/img/casa-1940.webp" alt="Casa de madeira azul-clara e rosa do Nova Polska, com telhado de barro e cerca verde" width="1200" height="1008">
+          <div class="call__label vidro-escuro" data-call-label>Nova Polska · Campo Magro</div>
+        </div>
+
+        <div class="app" data-app aria-label="Planeje sua visita ao Nova Polska">
+          <div class="app__bar">
+            <div class="app__brand vidro"><svg width="22" height="18" aria-hidden="true"><use href="#marca"/></svg><span>Nova Polska</span></div>
+            <ol class="app__steps vidro" data-app-steps>
+              <li class="is-on"><b>1</b><span>Gastronomia</span></li>
+              <li><b>2</b><span>Lazer</span></li>
+              <li><b>3</b><span>Reservas</span></li>
+              <i class="app__steps-pill" data-app-pill aria-hidden="true"></i>
+            </ol>
+            <div class="app__me vidro"><span class="app__me-slot" data-me-slot></span><span>Sua visita</span></div>
+          </div>
+
+          <!-- passo 1 · gastronomia -->
+          <div class="app__state app__state--1" data-state="1">
+            <div class="ask vidro">
+              <p class="ask__step">Gastronomia · passo 1 de 3</p>
+              <h3 class="ask__q">O que vai à mesa?</h3>
+              <ul class="ask__fotos" aria-hidden="true">
+                <li><img data-src="/nova-polska/img/buffet-batatas-sopas.webp" alt="" width="511" height="529"></li>
+                <li><img data-src="/nova-polska/img/buffet-carnes-assadas.webp" alt="" width="505" height="552"></li>
+                <li><img data-src="/nova-polska/img/buffet-paes-biscoitos.webp" alt="" width="508" height="550"></li>
+                <li><img data-src="/nova-polska/img/sucos-naturais.webp" alt="" width="509" height="546"></li>
+              </ul>
+              <ul class="ask__chips" data-chips="tema">
+                <li>Batatas</li><li>Sopas</li><li>Carnes assadas</li><li>Frango</li>
+                <li>Linguiça</li><li>Pães</li><li>Biscoitos</li><li>Sucos naturais</li>
+              </ul>
+              <p class="ask__sub">Escolha a experiência</p>
+              <ul class="ask__chips ask__chips--row" data-chips="com">
+                <li data-exp="almoco">Almoço</li><li data-exp="almoco-cafe">Almoço + café rural</li><li data-exp="cafe">Café rural</li>
+              </ul>
+              <div class="ask__foot">
+                <div class="ask__bar"><i data-ask-bar></i></div>
+                <span class="ask__go">Ver o lazer <svg width="16" height="16" aria-hidden="true"><use href="#seta"/></svg></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- passo 2 · lazer -->
+          <div class="app__state app__state--2" data-state="2">
+            <div class="pick">
+              <article class="pick__card vidro" data-pick="lago">
+                <img data-src="/nova-polska/img/pedalinho.webp" alt="" width="500" height="556">
+                <div class="pick__txt">
+                  <h3>Lago</h3>
+                  <p>Pedalinho, caiaque e bicicleta aquática</p>
+                </div>
+                <ul class="pick__slots"><li data-slot>Pedalinho</li><li>Caiaque</li></ul>
+                <span class="pick__check" aria-hidden="true"><svg viewBox="0 0 20 20" width="18" height="18"><path d="M5 10.5l3.2 3.2L15 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              </article>
+              <article class="pick__card vidro" data-pick="trator">
+                <img data-src="/nova-polska/img/trator-carretinha.webp" alt="" width="505" height="546">
+                <div class="pick__txt">
+                  <h3>Passeio de trator</h3>
+                  <p>Na carretinha, pela propriedade</p>
+                </div>
+                <ul class="pick__slots"><li>Carretinha</li></ul>
+              </article>
+              <article class="pick__card vidro" data-pick="fazendinha">
+                <img data-src="/nova-polska/img/cavalos.webp" alt="" width="509" height="549">
+                <div class="pick__txt">
+                  <h3>Fazendinha</h3>
+                  <p>Cavalos e avestruz no campo</p>
+                </div>
+                <ul class="pick__slots"><li>Cavalos</li><li>Avestruz</li></ul>
+              </article>
+            </div>
+            <div class="pick__confirm vidro" data-pick-confirm>
+              <span>Almoço + café rural · <b>Pedalinho</b></span>
+              <span class="pick__go">Reservar</span>
+            </div>
+          </div>
+
+          <!-- passo 3 · reservas: as duas fotos lado a lado e a reserva pelo WhatsApp -->
+          <div class="app__state app__state--3" data-state="3">
+            <div class="live__time vidro-escuro"><i aria-hidden="true"></i><span data-live-time>Reservas pelo WhatsApp</span></div>
+            <div class="live__controls res vidro">
+              <span class="live__btn" data-res="menos"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <span class="res__info" aria-live="polite"><b data-res-n>2 adultos</b><small data-res-total>Almoço + café rural · R$ 230</small></span>
+              <span class="live__btn" data-res="mais"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 12h12M12 6v12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <a class="live__btn live__btn--end" href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-res-zap><svg width="20" height="20" aria-hidden="true"><use href="#zap"/></svg><span>Reservar</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="call__self" data-call-self>
+        <img src="/nova-polska/img/buffet-frango-linguica.webp" alt="Buffet com frango assado, carnes e linguiça" width="507" height="553">
+        <div class="call__label call__label--self vidro-escuro" data-self-label>Buffet típico</div>
+      </div>
+    </div>
+
+    <!-- 2 · a visita (o card de três passos) -->
+    <section class="como" id="como-funciona" data-scene="como" aria-labelledby="como-titulo">
+      <h2 class="titulo como__titulo" id="como-titulo" data-split>Um dia inteiro <span class="nw">no Nova Polska.</span></h2>
+      <div class="como__passos" data-como-passos>
+        <p data-passo="1">Culinária típica servida em buffet: batatas, sopas, carnes assadas, frango, linguiça, pães, biscoitos e sucos naturais.</p>
+        <p data-passo="2">Depois da mesa, o lago com pedalinho, caiaque e bicicleta aquática, o passeio de trator e a fazendinha.</p>
+        <p data-passo="3">Escolha a experiência e reserve pelo WhatsApp. Valores de referência, confirmados pela casa na reserva.</p>
+      </div>
+    </section>
+
+  </div>
+  </div>
+
+  <!-- 3 · gastronomia -->
+  <section class="esp secao" id="gastronomia" aria-labelledby="esp-titulo">
+    <div class="secao__head">
+      <h2 class="titulo" id="esp-titulo" data-split>Da cozinha da família<br>para a sua mesa.</h2>
+      <p class="secao__nota" data-reveal>A cultura polonesa preservada também na culinária típica, servida em buffet no almoço e no café rural.</p>
+    </div>
+    <div class="esp__grade">
+      <article class="esp__card" data-reveal>
+        <img src="/nova-polska/img/buffet-carnes-assadas.webp" loading="lazy" alt="Travessas de carnes assadas fatiadas no buffet" width="505" height="552">
+        <div class="esp__copy vidro"><h3 class="esp__nome">Carnes assadas</h3></div>
+      </article>
+      <article class="esp__card" data-reveal>
+        <img src="/nova-polska/img/buffet-batatas-sopas.webp" loading="lazy" alt="Batatas fritas e sopas quentes no buffet" width="511" height="529">
+        <div class="esp__copy vidro"><h3 class="esp__nome">Batatas e sopas</h3></div>
+      </article>
+      <article class="esp__card" data-reveal>
+        <img src="/nova-polska/img/buffet-frango-linguica.webp" loading="lazy" alt="Frango assado, carnes e linguiça no buffet" width="507" height="553">
+        <div class="esp__copy vidro"><h3 class="esp__nome">Frango e linguiça</h3></div>
+      </article>
+      <article class="esp__card" data-reveal>
+        <img src="/nova-polska/img/buffet-paes-biscoitos.webp" loading="lazy" alt="Pães, roscas e biscoitos caseiros em travessas" width="508" height="550">
+        <div class="esp__copy vidro"><h3 class="esp__nome">Pães e biscoitos</h3></div>
+      </article>
+      <article class="esp__card" data-reveal>
+        <img src="/nova-polska/img/sucos-naturais.webp" loading="lazy" alt="Duas jarras de vidro com sucos naturais, roxo e laranja" width="509" height="546">
+        <div class="esp__copy vidro"><h3 class="esp__nome">Sucos naturais</h3></div>
+      </article>
+      <article class="esp__card esp__card--nota" data-reveal>
+        <p class="esp__rotulo">Almoço e café rural</p>
+        <p class="esp__frase">Valores de referência a partir de <b>R$ 65</b> por adulto.</p>
+        <a class="esp__link" href="#valores" data-go="val">Ver valores <svg width="16" height="16" aria-hidden="true"><use href="#seta"/></svg></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- 4 · lazer e natureza -->
+  <section class="psi secao" id="lazer" aria-labelledby="psi-titulo">
+    <div class="secao__head">
+      <h2 class="titulo" id="psi-titulo" data-split>Depois do almoço,<br>o dia continua lá fora.</h2>
+      <p class="secao__nota" data-reveal>Lago, passeios e animais no meio rural da propriedade. Consulte a disponibilidade dos atrativos ao reservar.</p>
+    </div>
+    <div class="psi__grade">
+      <article class="psi__card" data-reveal>
+        <img src="/nova-polska/img/pedalinho.webp" loading="lazy" alt="Família no pedalinho em forma de cisne no lago, com mata e araucárias ao fundo" width="500" height="556">
+        <div class="psi__tag vidro"><h3>Pedalinho</h3><p class="psi__abord">No lago</p></div>
+      </article>
+      <article class="psi__card" data-reveal>
+        <img src="/nova-polska/img/caiaque.webp" loading="lazy" alt="Duas pessoas de caiaque vermelho no lago" width="513" height="541">
+        <div class="psi__tag vidro"><h3>Caiaque</h3><p class="psi__abord">No lago</p></div>
+      </article>
+      <article class="psi__card" data-reveal>
+        <img src="/nova-polska/img/bicicleta-aquatica.webp" loading="lazy" alt="Visitante pedalando uma bicicleta aquática no lago" width="291" height="553">
+        <div class="psi__tag vidro"><h3>Bicicleta aquática</h3><p class="psi__abord">No lago</p></div>
+      </article>
+      <article class="psi__card" data-reveal>
+        <img src="/nova-polska/img/trator-carretinha.webp" loading="lazy" alt="Trator vermelho puxando uma carretinha colorida de passeio" width="505" height="546">
+        <div class="psi__tag vidro"><h3>Passeio de trator</h3><p class="psi__abord">Na carretinha</p></div>
+      </article>
+      <article class="psi__card" data-reveal>
+        <img src="/nova-polska/img/cavalos.webp" loading="lazy" alt="Cavalos pastando no campo, com uma casa colorida e mata ao fundo" width="509" height="549">
+        <div class="psi__tag vidro"><h3>Cavalos</h3><p class="psi__abord">Fazendinha</p></div>
+      </article>
+      <article class="psi__card" data-reveal>
+        <img src="/nova-polska/img/avestruz.webp" loading="lazy" alt="Avestruz no cercado da fazendinha" width="506" height="553">
+        <div class="psi__tag vidro"><h3>Avestruz</h3><p class="psi__abord">Fazendinha</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 5 · a casa: a família Antochevis e a cultura polonesa -->
+  <section class="casa secao" id="historia" aria-labelledby="casa-titulo">
+    <div class="casa__grade">
+      <figure class="casa__foto" data-reveal>
+        <img src="/nova-polska/img/vista-geral.webp" loading="lazy" alt="Vista do Nova Polska: as casas coloridas de madeira, o quiosque e a estrada de terra sob árvores grandes" width="1200" height="1600">
+      </figure>
+      <div class="casa__texto">
+        <p class="casa__ano" aria-hidden="true" data-reveal>1940</p>
+        <h2 class="titulo" id="casa-titulo" data-split>Uma chácara de família<br>e a cultura polonesa.</h2>
+        <p class="casa__lead" data-reveal>O Restaurante Nova Polska foi fundado por Célia Rosa Antochevis de Souza, que quis preservar a cultura polonesa através da casa e da culinária típica.</p>
+        <p class="casa__corpo" data-reveal>A família Antochevis nasceu e se criou nesta chácara, e a casa foi construída em 1940. Os atrativos foram organizados para a autossustentabilidade do lugar, num tripé:</p>
+        <ul class="casa__tripe" data-reveal>
+          <li>Meio rural e cultura polonesa</li>
+          <li>Saúde</li>
+          <li>Lazer</li>
+        </ul>
+        <figure class="casa__mini" data-reveal>
+          <img src="/nova-polska/img/fachada.webp" loading="lazy" alt="Fachada da casa polonesa: varanda rosa com janelas escuras, oitão azul-claro com venezianas verdes e cerca verde" width="499" height="507">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · valores: o painel de vidro no céu, que vai esquentando até o fim da tarde do rodapé -->
+  <section class="val" id="valores" aria-labelledby="val-titulo">
+    <div class="val__nuvens" aria-hidden="true"><img src="/nova-polska/img/nuvens.webp" loading="lazy" alt="" width="1600" height="1067"></div>
+    <div class="val__painel vidro" data-reveal>
+      <h2 class="titulo val__titulo" id="val-titulo" data-split>Um dia no campo,<br>do almoço ao café.</h2>
+      <!-- VALORES DE REFERÊNCIA do material enviado: confirmar com o restaurante antes de publicar -->
+      <div class="val__precos">
+        <div class="val__item">
+          <p class="val__nome">Almoço</p>
+          <p class="val__num"><small>R$</small>95</p>
+          <p class="val__det">Por adulto.</p>
+        </div>
+        <div class="val__item">
+          <p class="val__nome">Almoço + café rural</p>
+          <p class="val__num"><small>R$</small>115</p>
+          <p class="val__det">Por adulto.</p>
+        </div>
+        <div class="val__item">
+          <p class="val__nome">Café rural</p>
+          <p class="val__num"><small>R$</small>65</p>
+          <p class="val__det">Por adulto.</p>
+        </div>
+      </div>
+      <div class="val__pe">
+        <p>Valores de referência, sujeitos a confirmação com o restaurante no momento da reserva.</p>
+        <div class="val__acoes">
+          <a class="btn btn--dark" href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-zap>Reservar pelo WhatsApp <svg class="btn__arrow" width="18" height="18" aria-hidden="true"><use href="#seta"/></svg></a>
+          <a class="val__empresas" href="#lazer" data-go="psi">Conhecer o lazer <svg width="16" height="16" aria-hidden="true"><use href="#seta"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · fecho e rodapé: a mesma paisagem no fim da tarde -->
+  <section class="fim" id="contato" data-fecho aria-labelledby="fim-titulo">
+    <div class="paisagem paisagem--tarde" aria-hidden="true">
+      <img class="paisagem__montanhas" src="/nova-polska/img/mata.webp" loading="lazy" alt="" width="2400" height="1600">
+      <img class="paisagem__c1" src="/nova-polska/img/chacara.webp" loading="lazy" alt="" width="2400" height="1600">
+    </div>
+    <div class="fim__copy">
+      <h2 class="titulo fim__titulo" id="fim-titulo" data-split>Venha passar o dia<br>no Nova Polska.</h2>
+      <div class="fim__cta" data-reveal>
+        <a class="btn btn--dark btn--lg" href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-zap>Reservar pelo WhatsApp <svg class="btn__arrow" width="18" height="18" aria-hidden="true"><use href="#seta"/></svg></a>
+        <a class="btn btn--light btn--lg" href="#valores" data-go="val">Ver valores <img class="btn__avatar" src="/nova-polska/img/mesa-avatar.webp" alt="" width="96" height="96"></a>
+      </div>
+    </div>
+    <footer class="fim__painel vidro">
+      <div class="fim__topo">
+        <nav class="fim__links" aria-label="Rodapé">
+          <a href="#como-funciona" data-go="como">A visita</a>
+          <a href="#gastronomia" data-go="esp">Gastronomia</a>
+          <a href="#lazer" data-go="psi">Lazer</a>
+          <a href="#historia" data-go="casa">A casa</a>
+          <a href="#valores" data-go="val">Valores</a>
+        </nav>
+        <div class="fim__contato">
+          <a href="https://wa.me/5541999172171" target="_blank" rel="noopener" data-zap>WhatsApp (41) 99917-2171</a>
+          <span>Campo Magro · Paraná</span>
+        </div>
+      </div>
+      <p class="fim__marca" aria-hidden="true">Nova Polska</p>
+    </footer>
+    <div class="paisagem paisagem--tarde paisagem--frente" aria-hidden="true">
+      <img class="paisagem__c3" src="/nova-polska/img/frente.webp" loading="lazy" alt="" width="2400" height="1600">
+    </div>
+    <p class="fim__legal">© 2026 Restaurante Nova Polska · Campo Magro, Paraná · Valores de referência por adulto, sujeitos a confirmação com o restaurante.</p>
+  </section>
+  </main>
+
+  <a class="zap" href="https://wa.me/5541999172171" target="_blank" rel="noopener" aria-label="Reservar pelo WhatsApp" data-zap data-zap-flutua><svg width="26" height="26" aria-hidden="true"><use href="#zap"/></svg></a>
+
+</body>
+</html>
